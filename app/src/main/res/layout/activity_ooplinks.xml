@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom_background"
+    android:layout_height="match_parent"
+    tools:context=".OOPLinks"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 1"
+                android:id="@+id/a1"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a1"
+                android:layout_marginTop="2dp"
+                android:text="Installation of Linux"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d1"
+                android:layout_alignParentRight="true"
+                android:onClick="button1"
+                android:background="@mipmap/ic_yt_round"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 2"
+                android:layout_marginTop="6dp"
+                android:id="@+id/a2"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a2"
+                android:layout_marginTop="2dp"
+                android:text=" Complex number"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d2"
+                android:onClick="button2"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 3"
+                android:id="@+id/a3"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a3"
+                android:layout_marginTop="2dp"
+                android:text=" Quadratic equation"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d3"
+                android:onClick="button3"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round"
+                 />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 4"
+                android:id="@+id/a4"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a4"
+                android:layout_marginTop="2dp"
+                android:text="Basic calculator"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d4"
+                android:layout_alignParentRight="true"
+                android:onClick="button4"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 5"
+                android:id="@+id/a5"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a5"
+                android:layout_marginTop="2dp"
+                android:text=" Student Database"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d5"
+                android:onClick="button5"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 6"
+                android:id="@+id/a6"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a6"
+                android:layout_marginTop="2dp"
+                android:text="  File Handling"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d6"
+                android:onClick="button6"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 7"
+                android:id="@+id/a7"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a7"
+                android:layout_marginTop="2dp"
+                android:text="  Employee Biodata"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d7"
+                android:onClick="button7"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 8"
+                android:id="@+id/a8"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a8"
+                android:layout_marginTop="2dp"
+                android:text="User Defined Exception"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d8"
+                android:onClick="button8"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 9"
+                android:id="@+id/a9"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a9"
+                android:layout_marginTop="2dp"
+                android:text="  Phonebook"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d9"
+                android:onClick="button9"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 10"
+                android:id="@+id/a10"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a10"
+                android:layout_marginTop="2dp"
+                android:text="File Handling"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d10"
+                android:onClick="button10"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 11"
+                android:id="@+id/a11"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a11"
+                android:layout_marginTop="2dp"
+                android:text="  Selection sort"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d11"
+                android:onClick="button11"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 12"
+                android:id="@+id/a12"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a12"
+                android:layout_marginTop="2dp"
+                android:text="  STL(Stack and Queue) "
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d12"
+                android:onClick="button12"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 13"
+                android:id="@+id/a13"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a13"
+                android:layout_marginTop="2dp"
+                android:text="STL(Binary Addition)"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d13"
+                android:onClick="button13"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 14"
+                android:id="@+id/a14"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/a14"
+                android:layout_marginTop="2dp"
+                android:text=" Double ended queue"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="52dp"
+                android:id="@+id/d14"
+                android:onClick="button14"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/ic_yt_round" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

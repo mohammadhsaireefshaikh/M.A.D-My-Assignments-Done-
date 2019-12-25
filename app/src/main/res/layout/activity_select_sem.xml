@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Select_sem"
+    android:background="@drawable/custom_background"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:onClick="sem3"
+        android:id="@+id/sem3"
+        android:text="Second year"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:id="@+id/sem4"
+        android:onClick="third"
+        android:text="Third Year"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:id="@+id/sem5"
+        android:text="Fourth Year"
+        android:onClick="forth"
+        />
+
+
+</LinearLayout>

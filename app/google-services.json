@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "201704448325",
+    "firebase_url": "https://onetouch-13fb3.firebaseio.com",
+    "project_id": "onetouch-13fb3",
+    "storage_bucket": "onetouch-13fb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201704448325:android:b1331d5f093afe543b5e2c",
+        "android_client_info": {
+          "package_name": "com.example.one_touch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201704448325-gsbqgjt2semrdh4j7t0u4q3vtfkg6pc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.one_touch",
+            "certificate_hash": "09f9349632c3d55323ab9b642ec8447a6a4f5b84"
+          }
+        },
+        {
+          "client_id": "201704448325-bu8qu4ql50i2hk52ht9eeb5u7tciohfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-pJnd5oy1NU4xozH0o2Ja1qeCUjsChr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201704448325-bu8qu4ql50i2hk52ht9eeb5u7tciohfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

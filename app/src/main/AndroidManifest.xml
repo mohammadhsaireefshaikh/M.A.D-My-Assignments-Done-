@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.one_touch">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".aboutus"
+            android:parentActivityName=".dashboard"></activity>
+        <activity
+            android:name=".OOPLinks"
+            android:parentActivityName=".OOP" />
+        <activity
+            android:name=".Animation"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CGsyllabi"
+            android:parentActivityName=".CG" >
+
+        </activity>
+        <activity
+            android:name=".MPL"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".ADS"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".CG"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".DELDsyllabi"
+            android:parentActivityName=".DELD" />
+        <activity
+            android:name=".DSAsyllabi"
+            android:parentActivityName=".DSA" />
+        <activity
+            android:name=".Programms2"
+            android:parentActivityName=".DSA" />
+        <activity
+            android:name=".Select_sem"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".Oopsyllabi"
+            android:parentActivityName=".OOP" />
+        <activity
+            android:name=".Programms"
+            android:parentActivityName=".OOP" />
+        <activity
+            android:name=".SS"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".DELD"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".OOP"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".DSA"
+            android:parentActivityName=".comp" />
+        <activity
+            android:name=".comp"
+            android:parentActivityName=".Select_sem" />
+        <activity android:name=".dashboard"></activity>
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MAD</string>
+
+
+    <string name="Sologan">The Assignment\'\s are mean\'\t to be done easily.</string>
+
+
+    <string name="Location">
+        Path :-
+        /0/Android/data/com.example.one_touch/files/download
+
+    </string>
+
+
+
+    <string name="forq">For Querie\'\s :-</string>
+
+
+
+
+
+    <string name="details">
+                        projectmoze1947@gmail.com
+    </string>
+    <string name="thanking">Thank\'\s to :-</string>
+
+
+
+    <string name="thanks">
+
+                        Prerna Ravat \n
+                        Nilesh Madke
+    </string>
+
+    <string-array name="Classs">
+        <item>SE</item>
+        <item>TE</item>
+        <item>BE</item>
+    </string-array>
+</resources>

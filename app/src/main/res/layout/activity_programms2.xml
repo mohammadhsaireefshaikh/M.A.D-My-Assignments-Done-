@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom_background"
+    android:layout_height="match_parent"
+    tools:context=".Programms2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="Binarysearch"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d1"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="Bubblenselection"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d2"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="Dsa"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d3"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="Linearsearch"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d4"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="Quicksort"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d5"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="set"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d6"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="Stringop"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d7"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 8"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d8"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 9"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d9"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 10"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d10"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 11"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d11"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 12"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d12"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="ASSIGNMENT 13"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/common_google_signin_btn_text_light_focused"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:id="@+id/d13"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/download_button"
+                android:text="Download" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
